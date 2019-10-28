@@ -154,6 +154,7 @@
  var active = false;
       var startTime = 0;
       var period = 0;
+     
 
     
     // ボタンの初期設定
@@ -169,8 +170,8 @@
       var canvas = $("#mycanvas")[0];
       var ctx = canvas.getContext("2d");
       var img = new Image();
-      img.src = "ksuisbg.gif";
-      img.onload = function(){ctx.drawImage(img,0,0,300,300);};
+      img.src = "s000_244.jpg";
+      img.onload = function(){ctx.drawImage(img,0,0,400,400);};
 
       var audio = new Audio();
       audio.src = "pin.wav";
@@ -191,6 +192,7 @@
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
       active = false;
+    
         
         
     }
